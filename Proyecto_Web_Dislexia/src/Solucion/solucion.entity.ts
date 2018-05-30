@@ -1,4 +1,5 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
+import {EstudianteEntity} from "../Estudiante/estudiante.entity";
 @Entity('web_dislexia')
 export class SolucionEntity {
 
@@ -6,5 +7,7 @@ export class SolucionEntity {
     id_respuesta: number;
     @Column({length: 100})
     respuesta_esperada: string;
+
+
 
 }

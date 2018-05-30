@@ -1,4 +1,6 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
+import {EstudianteEntity} from "../Estudiante/estudiante.entity";
+import {ProfesorEntity} from "../Profesor/profesor.entity";
 @Entity('web_dislexia')
 export class JuegoEntity{
 
@@ -10,4 +12,14 @@ export class JuegoEntity{
     resultados: string;
     @Column({length: 50})
     palabras: string;
+
+    @ManyToOne(
+        type => EstudianteEntity,
+        estudianteEntity => estudianteEntity.juegoFK)
+    estudianteFK: EstudianteEntity;
+
+    @ManyToOne(
+        type => ProfesorEntity,
+        profesorEntity => profesorEntity.juegoFK)
+    profesorFK: ProfesorEntity;
 }

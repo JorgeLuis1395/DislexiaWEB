@@ -1,4 +1,5 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, OneToMany, PrimaryGeneratedColumn} from "typeorm";
+import {EstudianteEntity} from "../Estudiante/estudiante.entity";
 @Entity('web_dislexia')
 export class PrediagnosticoEntity {
 
@@ -8,4 +9,11 @@ export class PrediagnosticoEntity {
     respuesta_estudiante: string;
     @Column()
     fecha_respuesta: Date ;
+
+    @OneToMany(
+        type => EstudianteEntity,
+        estudianteEntity => estudianteEntity.prediagnosticoFK)
+    estudianteFK: EstudianteEntity[];
+
+
 }

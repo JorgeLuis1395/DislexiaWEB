@@ -1,6 +1,7 @@
-import {Column, Entity, ManyToMany, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, ManyToMany, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
 import {UsuarioEntity} from "../Usuario/usuario.entity";
 import {EstudianteEntity} from "../Estudiante/estudiante.entity";
+import {JuegoEntity} from "../Juego/juego.entity";
 @Entity('web_dislexia')
 export class ProfesorEntity {
 
@@ -15,4 +16,10 @@ export class ProfesorEntity {
         type => UsuarioEntity,
         profesorEntity => profesorEntity.profesores)
     usuarioFK: ProfesorEntity[];
+
+    @OneToMany(
+        type => JuegoEntity,
+        juegoEntity => juegoEntity.profesorFK
+    )
+    juegoFK: JuegoEntity[];
 }
