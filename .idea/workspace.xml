@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71cbf0d7-07bd-4559-aed3-9e7e866aa0ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,14 +29,27 @@
       </file>
       <file leaf-file-name="prediagnostico.entity.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="resultado.entity.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="296">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.schema.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="688">
+              <caret line="40" column="7" lean-forward="true" selection-end-line="40" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -44,7 +57,7 @@
       <file leaf-file-name="usuario.entity.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="740">
+            <state relative-caret-position="688">
               <caret line="20" column="1" lean-forward="true" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
@@ -61,15 +74,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.schema.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.schema.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts" />
@@ -78,6 +93,9 @@
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.schema.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts" />
       </list>
     </option>
   </component>
@@ -96,8 +114,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1307" />
-    <option name="y" value="59" />
+    <option name="x" value="1035" />
+    <option name="y" value="23" />
     <option name="width" value="1373" />
     <option name="height" value="1241" />
   </component>
@@ -145,6 +163,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Resultado" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
+              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Usuario" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -186,7 +211,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1527644244923</updated>
-      <workItem from="1527644252612" duration="3277000" />
+      <workItem from="1527644252612" duration="4381000" />
     </task>
     <task id="LOCAL-00001" summary="Juego entity y juego schema">
       <created>1527647395239</created>
@@ -195,22 +220,28 @@
       <option name="project" value="LOCAL" />
       <updated>1527647395239</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Archivo gitignore">
+      <created>1527647789558</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1527647789558</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3277000" />
+    <option name="totallyTimeSpent" value="4381000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1307" y="59" width="1373" height="1241" extended-state="0" />
-    <editor active="true" />
+    <frame x="1221" y="39" width="1373" height="1241" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981792" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981792" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.3297785" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3297785" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32895815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" weight="0.3297785" />
@@ -228,18 +259,53 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Jorge" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Juego entity y juego schema" />
-    <option name="LAST_COMMIT_MESSAGE" value="Juego entity y juego schema" />
+    <MESSAGE value="Archivo gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Archivo gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.schema.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts">
@@ -253,13 +319,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="11" column="7" lean-forward="true" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -280,17 +339,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="33" column="24" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="37">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="740">
+        <state relative-caret-position="688">
           <caret line="20" column="1" lean-forward="true" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="40" column="7" lean-forward="true" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -302,12 +375,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state>
+          <caret selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
