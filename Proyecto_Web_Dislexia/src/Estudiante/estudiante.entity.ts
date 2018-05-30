@@ -1,4 +1,4 @@
-import {Column, Entity, ManyToMany, OneToMany, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, ManyToMany, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
 import {UsuarioEntity} from "../Usuario/usuario.entity";
 @Entity('web_dislexia')
 export class EstudianteEntity {
@@ -8,9 +8,9 @@ export class EstudianteEntity {
     @Column()
     anio_educacion_basica: number;
 
-    @ManyToMany(
+    @ManyToOne(
         type => UsuarioEntity,
-        estudianteEntity => estudianteEntity.estudiante_usuario)
-    usuario_estudiante: EstudianteEntity[];
+        estudianteEntity => estudianteEntity.estudiantes)
+    usuarioFK: UsuarioEntity;
 
 }
