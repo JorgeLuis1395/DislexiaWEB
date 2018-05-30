@@ -21,12 +21,12 @@ export class UsuarioEntity {
 
     @OneToMany(
         type => EstudianteEntity,
-        estudianteEntity => estudianteEntity.usuario_estudiante)
-    estudiante_usuario: EstudianteEntity[];
+        estudianteEntity => estudianteEntity.usuarioFK)
+    estudiantes: EstudianteEntity[];
 
     @OneToMany(
         type => ProfesorEntity,
-        profesorEntity => profesorEntity.usuario_profesor)
-    profesor_usuario: EstudianteEntity[];
+        profesorEntity => profesorEntity.usuarioFK)
+    profesores: ProfesorEntity[];
 
 }
