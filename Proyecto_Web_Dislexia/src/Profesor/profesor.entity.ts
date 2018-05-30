@@ -1,4 +1,4 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "../../node_modules/typeorm";
+import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
 @Entity('web_dislexia')
 export class ProfesorEntity {
 
