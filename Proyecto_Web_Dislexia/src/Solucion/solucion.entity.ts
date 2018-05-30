@@ -1,6 +1,6 @@
 import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
 @Entity('web_dislexia')
-export class ResultadoEntity {
+export class SolucionEntity {
 
     @PrimaryGeneratedColumn()
     id_respuesta: number;

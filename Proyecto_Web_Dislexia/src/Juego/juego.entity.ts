@@ -8,4 +8,6 @@ export class JuegoEntity{
     dificultad: string;
     @Column({length: 50})
     resultados: string;
+    @Column({length: 50})
+    palabras: string;
 }
