@@ -14,5 +14,5 @@ export class ProfesorEntity {
     @ManyToMany(
         type => UsuarioEntity,
         profesorEntity => profesorEntity.profesor_usuario)
-    usuario_profesor: EstudianteEntity[];
+    usuario_profesor: ProfesorEntity[];
 }
