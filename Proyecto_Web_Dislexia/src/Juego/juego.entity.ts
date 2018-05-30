@@ -6,4 +6,6 @@ export class JuegoEntity{
     id_juego: number;
     @Column({length: 50})
     dificultad: string;
+    @Column({length: 50})
+    resultados: string;
 }
