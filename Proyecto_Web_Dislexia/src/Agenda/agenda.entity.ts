@@ -1,5 +1,6 @@
 import {Column, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
-import {UsuarioEntity} from "../Usuario/usuario.entity";
+import {PrediagnosticoEntity} from "../Prediagnostico/prediagnostico.entity";
+import {ProfesorEntity} from "../Profesor/profesor.entity";
 
 
 export class AgendaEntity {
@@ -15,6 +16,9 @@ export class AgendaEntity {
     @Column()
     prioridad: string;
 
-
+    @ManyToOne(
+        type => ProfesorEntity,
+        profesorEntity => profesorEntity.agendaFK)
+    profesorFK: ProfesorEntity;
 
 }
