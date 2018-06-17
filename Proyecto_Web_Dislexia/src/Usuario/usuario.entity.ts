@@ -1,4 +1,6 @@
-import {Column, Entity, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, OneToMany, PrimaryGeneratedColumn} from "typeorm";
+import {EstudianteEntity} from "../Estudiante/estudiante.entity";
+import {ProfesorEntity} from "../Profesor/profesor.entity";
 @Entity('web_dislexia')
 export class UsuarioEntity {
 
@@ -17,5 +19,14 @@ export class UsuarioEntity {
     @Column({length: 50})
     contrasenia: string;
 
+    @OneToMany(
+        type => EstudianteEntity,
+        estudianteEntity => estudianteEntity.usuarioFK)
+    estudiantes: EstudianteEntity[];
+
+    @OneToMany(
+        type => ProfesorEntity,
+        profesorEntity => profesorEntity.usuarioFK)
+    profesores: ProfesorEntity[];
 
 }
