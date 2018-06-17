@@ -1,7 +1,6 @@
 import {Column, Entity, ManyToMany, ManyToOne, OneToMany, PrimaryGeneratedColumn} from "typeorm";
 import {UsuarioEntity} from "../Usuario/usuario.entity";
 import {PrediagnosticoEntity} from "../Prediagnostico/prediagnostico.entity";
-import {SolucionEntity} from "../Solucion/solucion.entity";
 import {JuegoEntity} from "../Juego/juego.entity";
 @Entity('web_dislexia')
 export class EstudianteEntity {

@@ -4,7 +4,7 @@ export const AGENDA_SCHEMA= Joi
     .object()
     .keys({
         fecha_registro: Joi
-            .date(),
+            .date().required(),
         actividad: Joi
             .string()
             .min(3)
@@ -15,4 +15,5 @@ export const AGENDA_SCHEMA= Joi
             .min(3)
             .max(100)
             .required(),
+        profesorID: Joi.number().integer().required(),
     });
