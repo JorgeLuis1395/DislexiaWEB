@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71cbf0d7-07bd-4559-aed3-9e7e866aa0ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.schema.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.controller.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/main.hmr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/main.hmr.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,32 +29,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="agenda.schema.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.schema.ts">
+      <file leaf-file-name="usuario.service.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estudiante.schema.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.schema.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="agenda.entity.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="544">
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="26" />
               <folding>
-                <element signature="e#0#66#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.controller.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.controller.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" column="43" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.pipes.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/pipes/usuario.pipes.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#96#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="usuario.schema.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -77,21 +91,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.schema.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.schema.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.schema.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Resultado/resultado.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.schema.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.schema.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" />
-        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts" />
         <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.schema.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.module.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.controller.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.service.ts" />
+        <option value="$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts" />
       </list>
     </option>
   </component>
@@ -110,9 +128,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="7" />
-    <option name="width" value="1373" />
-    <option name="height" value="788" />
+    <option name="x" value="728" />
+    <option name="y" value="70" />
+    <option name="width" value="838" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -136,48 +155,6 @@
               <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
               <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Agenda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Estudiante" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Juego" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Prediagnostico" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Profesor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DislexiaWEB" type="462c0819:PsiDirectoryNode" />
-              <item name="Proyecto_Web_Dislexia" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Solucion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DislexiaWEB" type="b2602c69:ProjectViewProjectNode" />
@@ -229,6 +206,11 @@
       <updated>1527644244923</updated>
       <workItem from="1527644252612" duration="4562000" />
       <workItem from="1527693451563" duration="2491000" />
+      <workItem from="1528125825357" duration="558000" />
+      <workItem from="1528126629484" duration="94000" />
+      <workItem from="1533569889672" duration="5274000" />
+      <workItem from="1533576913269" duration="2212000" />
+      <workItem from="1533582111499" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="Juego entity y juego schema">
       <created>1527647395239</created>
@@ -255,20 +237,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9358000" />
+    <option name="totallyTimeSpent" value="18238000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20294118" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2638266" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3290938" />
-      <window_info anchor="bottom" id="Version Control" order="11" visible="true" weight="0.28298888" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32895815" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007474" side_tool="true" weight="0.4240924" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.37128714" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32838285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49925262" visible="true" weight="0.15676567" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,31 +312,19 @@
     <option name="LAST_COMMIT_MESSAGE" value="prediagnostico y resultados" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts">
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/pipes/usuario.pipes.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#96#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts">
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="221">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
         </state>
       </provider>
     </entry>
@@ -414,13 +384,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -442,22 +405,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/pipes/agenda.pipes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -465,9 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,9 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -485,9 +430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -495,9 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -505,9 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,23 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" column="7" lean-forward="true" selection-end-line="40" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -640,87 +559,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="15" column="15" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts">
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.schema.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.schema.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="11" />
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.schema.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Agenda/agenda.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Estudiante/estudiante.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Juego/juego.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Prediagnostico/prediagnostico.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Profesor/profesor.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Solucion/solucion.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.entity.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.controller.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/pipes/usuario.pipes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#96#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proyecto_Web_Dislexia/src/Usuario/usuario.schema.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="73" selection-start-line="13" selection-start-column="73" selection-end-line="13" selection-end-column="73" />
         </state>
       </provider>
     </entry>

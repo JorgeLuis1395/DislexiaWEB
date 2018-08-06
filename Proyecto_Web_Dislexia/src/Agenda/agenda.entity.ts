@@ -1,8 +1,8 @@
-import {Column, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
+import {Column, Entity, ManyToOne, PrimaryGeneratedColumn} from "typeorm";
 import {PrediagnosticoEntity} from "../Prediagnostico/prediagnostico.entity";
 import {ProfesorEntity} from "../Profesor/profesor.entity";
 
-
+@Entity('agenda')
 export class AgendaEntity {
 
     @PrimaryGeneratedColumn()

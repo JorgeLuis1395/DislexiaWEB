@@ -3,7 +3,7 @@ import {UsuarioEntity} from "../Usuario/usuario.entity";
 import {EstudianteEntity} from "../Estudiante/estudiante.entity";
 import {JuegoEntity} from "../Juego/juego.entity";
 import {AgendaEntity} from "../Agenda/agenda.entity";
-@Entity('web_dislexia')
+@Entity('profesor')
 export class ProfesorEntity {
 
     @PrimaryGeneratedColumn()

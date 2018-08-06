@@ -1,7 +1,7 @@
 import {Column, Entity, OneToMany, PrimaryGeneratedColumn} from "typeorm";
 import {EstudianteEntity} from "../Estudiante/estudiante.entity";
 import {SolucionEntity} from "../Solucion/solucion.entity";
-@Entity('web_dislexia')
+@Entity('prediagnostico')
 export class PrediagnosticoEntity {
 
     @PrimaryGeneratedColumn()
